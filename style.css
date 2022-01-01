@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(24, 24, 24, 255);
+  font-family: Arial;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+table,
+tr,
+th {
+  border-collapse: collapse;
+  border-bottom: 2px solid rgba(32, 32, 32, 255);
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  font-size: 15px;
+}
+
+th {
+  height: 40px;
+}
+
+button {
+  font-family: Arial;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+  background-color: rgba(30, 185, 84, 255);
+  border-color: rgba(37, 112, 62, 255);
+  border-width: 1px;
+  color: white;
+  font-size: 15px;
+}
+button:hover {
+  border-radius: 22px;
+  width: 104px;
+  height: 32px;
+  background-color: rgba(30, 215, 96, 255);
+}
+
+.hwNum {
+  width: 20%;
+}
+
+.desc {
+  width: 30%;
+}
+
+#myName {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 10px;
+}
